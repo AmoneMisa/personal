@@ -108,3 +108,30 @@ body {
   opacity: 1;
   transform: translateX(0);
 }
+
+.fade-bounce-in {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.fade-bounce-in.appear {
+  opacity: 1;
+  animation: bounceIn 0.6s ease forwards;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

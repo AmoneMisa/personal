@@ -10,11 +10,11 @@ defineProps({ projects: Array });
         cols="12"
         md="6"
     >
-      <div class="project-card text-white">
+      <div v-observe class="project-card text-white fade-bounce-in" :style="{ '--delay': (i * 100) + 'ms' }">
         <h3 class="text-h6 font-weight-bold mb-1">{{ project.name }}</h3>
         <p><strong>Stack:</strong> {{ project.stack }}</p>
         <p v-if="project.github">
-          <strong>GitHub:</strong>
+          <strong>GitHub: </strong>
           <a :href="project.github" target="_blank" class="text-blue-lighten-2">{{ project.github }}</a>
         </p>
         <p>{{ project.description }}</p>
