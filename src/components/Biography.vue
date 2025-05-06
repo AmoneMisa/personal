@@ -101,7 +101,7 @@
 
           <section>
             <h3 class="text-h6 font-weight-bold mb-2">Languages</h3>
-            <p>Russian – C2, English – B1, Ukrainian – C2</p>
+            <p>Russian – C2, English – B1, Ukrainian – C2, Turkish - А1</p>
           </section>
 
           <div class="divider"></div>
