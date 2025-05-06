@@ -98,7 +98,7 @@ const projects = {
     <ProjectGrid :projects="projects.skyrim"/>
 
     <SectionTitle title="My contacts"/>
-    <v-row class="text-white text-body-1 ga-2" dense>
+    <v-row class="text-white text-body-1 ga-3" dense>
         <v-icon start>mdi-email</v-icon>
         <a href="mailto:kubai.rita5@gmail.com" class="contact-link">kubai.rita5@gmail.com</a>
         <v-icon start>mdi-phone</v-icon>
@@ -127,7 +127,7 @@ const projects = {
 }
 
 .contact-link {
-  color: #bb86fc; /* приятный мягкий акцент */
+  color: #bb86fc;
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
   display: inline-flex;

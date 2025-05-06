@@ -18,16 +18,59 @@
 
           <section>
             <h3 class="text-h6 font-weight-bold mb-2">Tech Stack</h3>
-            <ul>
-              <li><strong>Markup & Styling:</strong> HTML, CSS/SCSS, Responsive Layout, Email template coding, Freemarker, Liquid</li>
-              <li><strong>Frontend:</strong> JavaScript, Vue, Nuxt, Vite, Vuex, Pinia</li>
-              <li><strong>Backend:</strong> Node.js, REST API, Swagger</li>
-              <li><strong>Utilities & Libraries:</strong> Axios, Luxon, Lodash, HTML-parsing, Cron, DayJs, Express, moment.js, i18n, node-pg-migrate, prisma</li>
-              <li><strong>Desktop:</strong> Electron</li>
-              <li><strong>Databases:</strong> SQL, PostgreSQL, MongoDB, MySQL</li>
-              <li><strong>Bots & APIs:</strong> Discord Bot API, Telegram Bot API</li>
-              <li><strong>Tools:</strong> Git, Jira, IntelliJ, Figma</li>
-            </ul>
+            <div class="stack-list">
+              <p><strong>Markup & Styling:</strong></p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS/SCSS</li>
+                <li>Responsive Layout</li>
+                <li>Email template coding</li>
+                <li>Freemarker</li>
+                <li>Liquid</li>
+              </ul>
+
+              <p><strong>Frontend:</strong></p>
+              <ul>
+                <li>JavaScript</li>
+                <li>Vue, Nuxt, Vite</li>
+                <li>Vuex, Pinia</li>
+              </ul>
+
+              <p><strong>Backend:</strong></p>
+              <ul>
+                <li>Node.js</li>
+                <li>REST API, Swagger</li>
+              </ul>
+
+              <p><strong>Utilities & Libraries:</strong></p>
+              <ul>
+                <li>Axios, Luxon, Lodash</li>
+                <li>HTML-parsing, Cron</li>
+                <li>DayJs, Express, moment.js</li>
+                <li>i18n, node-pg-migrate, prisma</li>
+              </ul>
+
+              <p><strong>Desktop:</strong></p>
+              <ul>
+                <li>Electron</li>
+              </ul>
+
+              <p><strong>Databases:</strong></p>
+              <ul>
+                <li>SQL, PostgreSQL, MongoDB, MySQL</li>
+              </ul>
+
+              <p><strong>Bots & APIs:</strong></p>
+              <ul>
+                <li>Discord Bot API</li>
+                <li>Telegram Bot API</li>
+              </ul>
+
+              <p><strong>Tools:</strong></p>
+              <ul>
+                <li>Git, Jira, IntelliJ, Figma</li>
+              </ul>
+            </div>
           </section>
 
           <div class="divider"></div>
@@ -58,7 +101,7 @@
 
           <section>
             <h3 class="text-h6 font-weight-bold mb-2">Languages</h3>
-            <p>Russian – C2, English – B1, Ukrainian – C2, Turkish - A1</p>
+            <p>Russian – C2, English – B1, Ukrainian – C2</p>
           </section>
 
           <div class="divider"></div>
@@ -124,5 +167,16 @@
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
+}
+
+.stack-list ul {
+  list-style: disc inside;
+  margin-bottom: 16px;
+}
+
+.stack-list p {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-weight: 600;
 }
 </style>
