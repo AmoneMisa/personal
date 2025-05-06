@@ -76,7 +76,7 @@ const projects = {
     <v-row class="mb-10">
       <v-col cols="12" class="text-center">
         <h1 class="gradient-text text-h2 font-weight-bold mb-2">Hello, I'm Marharyta</h1>
-        <p class="text-h5">Frontend Developer</p>
+        <p class="text-h5 ">Frontend Developer</p>
       </v-col>
     </v-row>
 

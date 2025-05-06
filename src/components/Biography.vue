@@ -6,18 +6,18 @@
   <v-container class="py-10" max-width="1280">
     <v-row class="mb-10">
       <v-col cols="12">
-        <h2 class="gradient-text text-h4 font-weight-bold mb-6">About Me</h2>
+        <h2 class="gradient-text text-h4 font-weight-bold mb-6 text-white">About Me</h2>
 
         <div class="about-card">
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Biography</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Biography</h3>
             <p>I'm a frontend developer and a friendly, slightly shy girl from Kharkiv. I enjoy creating new things or giving a fresh twist to something old and familiar. In my spare time, I especially enjoy creating bots for Telegram and Discord – it's an interesting way to diversify your server with interesting features you can think of. I've also tried my hand at developing a desktop app using Electron for myself and my friends, and it really drew me in :). I'd like to keep growing in frontend, especially with Vue or the services I mentioned — bots and Electron-based apps.</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Tech Stack</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Tech Stack</h3>
             <div class="stack-list">
               <p><strong>Markup & Styling:</strong></p>
               <ul>
@@ -76,7 +76,7 @@
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Education</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Education</h3>
             <p>
               2020 – National Law University, Bachelor's degree, Institute of Criminal Investigation and Forensics, Criminal Forensic Investigator<br>
               2021 – V. N. Karazin Kharkiv National University, Master's degree, Civil Law and Civil Relations, Lawyer
@@ -86,35 +86,35 @@
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Interests</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Interests</h3>
             <p>Game development, automation, UI design, RPG mechanics, creating bots, Electron apps, modding for Skyrim</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Goals</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Goals</h3>
             <p>To join an international frontend team, work on exciting user-facing products and continue improving developer UX across platforms. I’m also highly interested in contributing to the backend side of applications, especially creating my own APIs, working with databases, and integrating services through Electron. Writing parsers, managing data flow, and building full-stack tools give me special joy — and I’d love to apply those skills in commercial projects.</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Languages</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Languages</h3>
             <p>Russian – C2, English – B1, Ukrainian – C2, Turkish - А1</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Location</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Location</h3>
             <p>Born in Kharkiv, currently based in Bucharest, Romania</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2">Job Preferences</h3>
+            <h3 class="text-h6 font-weight-bold mb-2 text-white">Job Preferences</h3>
             <p>Looking for full-time remote work. Minimum salary: 2000 USD net/month.</p>
           </section>
         </div>
