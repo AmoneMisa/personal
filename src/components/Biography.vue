@@ -10,7 +10,7 @@
 
         <div class="about-card">
           <section>
-            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+            <h3 class="text-h6 font-weight-bold mb-2 text-white d-flex align-center">
               <v-icon class="me-2" color="primary" size="20">mdi-account</v-icon>
               Biography
             </h3>
@@ -20,7 +20,7 @@
           <div class="divider"></div>
 
           <section>
-            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+            <h3 class="text-h6 font-weight-bold mb-2 text-white d-flex align-center">
               <v-icon class="me-2" color="primary" size="20">mdi-code-tags</v-icon>
               Tech Stack
             </h3>
