@@ -10,14 +10,20 @@
 
         <div class="about-card">
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Biography</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-account</v-icon>
+              Biography
+            </h3>
             <p>I'm a frontend developer and a friendly, slightly shy girl from Kharkiv. I enjoy creating new things or giving a fresh twist to something old and familiar. In my spare time, I especially enjoy creating bots for Telegram and Discord – it's an interesting way to diversify your server with interesting features you can think of. I've also tried my hand at developing a desktop app using Electron for myself and my friends, and it really drew me in :). I'd like to keep growing in frontend, especially with Vue or the services I mentioned — bots and Electron-based apps.</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Tech Stack</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-code-tags</v-icon>
+              Tech Stack
+            </h3>
             <div class="stack-list">
               <p><strong>Markup & Styling:</strong></p>
               <ul>
@@ -75,8 +81,37 @@
 
           <div class="divider"></div>
 
+          <section class="mt-10">
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-briefcase</v-icon>
+              Work Experience
+            </h3>
+
+            <div class="mb-6">
+              <div class="text-caption text-grey">05.2020 — 05.2021</div>
+              <div class="text-subtitle-1 font-weight-bold text-white">ITSUA</div>
+              <div class="text-body-2 font-italic text-light-grey mb-1">Junior Frontend Developer</div>
+              <p class="text-light-grey">
+                Create, update and fix templates for Shopify on Liquid. Create App on Vue for Shopify.
+              </p>
+            </div>
+            <div>
+              <div class="text-caption text-grey">06.2021 — Present</div>
+              <div class="text-subtitle-1 font-weight-bold text-white">BPC</div>
+              <div class="text-body-2 font-italic text-light-grey mb-1">Frontend Developer</div>
+              <p class="text-light-grey">
+                Marketplace development. Create and update templates on Freemarker. Fix responsive layouts. Create email templates.
+              </p>
+            </div>
+          </section>
+
+          <div class="divider"></div>
+
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Education</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-school</v-icon>
+              Education
+            </h3>
             <p>
               2020 – National Law University, Bachelor's degree, Institute of Criminal Investigation and Forensics, Criminal Forensic Investigator<br>
               2021 – V. N. Karazin Kharkiv National University, Master's degree, Civil Law and Civil Relations, Lawyer
@@ -86,35 +121,51 @@
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Interests</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-star-four-points-outline</v-icon>
+              Interests
+            </h3>
+
             <p>Game development, automation, UI design, RPG mechanics, creating bots, Electron apps, modding for Skyrim</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Goals</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-target-variant</v-icon>
+              Goals
+            </h3>
             <p>To join an international frontend team, work on exciting user-facing products and continue improving developer UX across platforms. I’m also highly interested in contributing to the backend side of applications, especially creating my own APIs, working with databases, and integrating services through Electron. Writing parsers, managing data flow, and building full-stack tools give me special joy — and I’d love to apply those skills in commercial projects.</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Languages</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-translate</v-icon>
+              Languages
+            </h3>
             <p>Russian – C2, English – B1, Ukrainian – C2, Turkish - А1</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Location</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-map-marker</v-icon>
+              Location
+            </h3>
             <p>Born in Kharkiv, currently based in Bucharest, Romania</p>
           </section>
 
           <div class="divider"></div>
 
           <section>
-            <h3 class="text-h6 font-weight-bold mb-2 text-white">Job Preferences</h3>
+            <h3 v-observe class="fade-slide-left text-h6 font-weight-bold mb-2 text-white d-flex align-center">
+              <v-icon class="me-2" color="primary" size="20">mdi-clipboard-text</v-icon>
+              Job Preferences
+            </h3>
             <p>Looking for full-time remote work. Minimum salary: 2000 USD net/month.</p>
           </section>
         </div>
