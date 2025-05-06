@@ -1,0 +1,16 @@
+@import './base.css';
+
+#app {
+  width: 100%;
+}
+
+a {
+  word-break: break-word;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
