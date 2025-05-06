@@ -126,7 +126,9 @@
               Interests
             </h3>
 
-            <p>Game development, automation, UI design, RPG mechanics, creating bots, Electron apps, modding for Skyrim</p>
+            <p>I'm (very) passionate about video games — both single-player and MMOs (currently playing Lost Ark with my husband). I also love creating fun bots for Telegram and Discord based on the "it would be cool if I could do this" principle — and then I go ahead and make it happen :)
+              I'm a huge fan of rock music, especially classics like Skillet, BMTH, Nirvana, and similar bands. I enjoy quiet places and the occasional trip to a bar as well.
+              I casually follow CS2 and sometimes read visual novels (because why not, right?). I like modding, and I make a translations for mods for Skyrim, when I have a time (sometimes a little patchers aka "modifications").</p>
           </section>
 
           <div class="divider"></div>
