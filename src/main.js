@@ -18,6 +18,6 @@ const vuetify = createVuetify({
         aliases,
         sets: { mdi },
     }
-})
+});
 
 createApp(App).use(vuetify).directive('observe', Observe).mount('#app')

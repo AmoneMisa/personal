@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <v-footer class="text-center py-4 footer" style="background-color: #111">
-    © 2025 Kubai Marharyta — SSR Vue App + Element Plus
+  <v-footer class="text-center py-4 footer text-white" style="background-color: #111">
+    © 2025 Kubai Marharyta — SSR (Vue, Vite, Vuetify)
   </v-footer>
 </template>
 
