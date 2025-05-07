@@ -17,10 +17,7 @@ const vuetify = createVuetify({
         defaultSet: 'mdi',
         aliases,
         sets: { mdi },
-    },
-    theme: {
-        defaultTheme: 'dark',
-    },
+    }
 })
 
 createApp(App).use(vuetify).directive('observe', Observe).mount('#app')

@@ -75,12 +75,12 @@ const projects = {
   <v-container class="py-10" max-width="1280">
     <v-row class="mb-10">
       <v-col cols="12" class="text-center">
-        <h1 class="gradient-text text-h2 font-weight-bold mb-2">Hello, I'm Marharyta</h1>
+        <h1 class="gradient-text text-lg-h2 text-md-h3 text-h4 font-weight-bold mb-2">Hello, I'm Marharyta</h1>
         <p class="text-h5 text-white">Frontend Developer</p>
       </v-col>
     </v-row>
 
-    <biography class="text-white" />
+    <biography class="text-white"/>
 
     <SectionTitle title="Discord Bots"/>
     <ProjectGrid :projects="projects.discord"/>
@@ -98,16 +98,28 @@ const projects = {
     <ProjectGrid :projects="projects.skyrim"/>
 
     <SectionTitle title="My contacts"/>
-    <v-row class="text-white text-body-1 ga-3" dense>
-        <v-icon start>mdi-email</v-icon>
+    <v-row class="text-white text-body-1 flex-wrap ga-3" dense>
+      <v-col class="d-inline-flex align-center ga-1" cols="auto">
+        <v-icon>mdi-email</v-icon>
         <a href="mailto:kubai.rita5@gmail.com" class="contact-link">kubai.rita5@gmail.com</a>
-        <v-icon start>mdi-phone</v-icon>
+      </v-col>
+
+      <v-col class="d-inline-flex align-center ga-1" cols="auto">
+        <v-icon>mdi-phone</v-icon>
         <a href="tel:+40754784610" class="contact-link">+40754784610</a>
-        <v-icon start>mdi-whatsapp</v-icon>
+      </v-col>
+
+      <v-col class="d-inline-flex align-center ga-1" cols="auto">
+        <v-icon>mdi-whatsapp</v-icon>
         <a href="https://wa.me/380638877209" target="_blank" class="contact-link">+380638877209</a>
-        <v-icon start>mdi-github</v-icon>
+      </v-col>
+
+      <v-col class="d-inline-flex align-center ga-1" cols="auto">
+        <v-icon>mdi-github</v-icon>
         <a href="https://github.com/AmoneMisa" target="_blank" class="contact-link">AmoneMisa</a>
+      </v-col>
     </v-row>
+
   </v-container>
 </template>
 
@@ -121,9 +133,15 @@ const projects = {
 }
 
 @keyframes gradient-animation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .contact-link {
