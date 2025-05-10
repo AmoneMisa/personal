@@ -7,7 +7,7 @@ const projects = {
   discord: [
     {
       name: 'Gold Bot',
-      stack: 'Node.js, Discord.js, Discord API, prisma, Postgres',
+      stack: 'Node.js, Discord.js, Discord API, prisma, Postgres, Docker',
       github: 'https://github.com/AmoneMisa/amorality-discord-bot',
       description: 'Bot for help users calc how many gold they get for month'
     },
