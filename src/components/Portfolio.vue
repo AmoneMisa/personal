@@ -34,6 +34,14 @@ const projects = {
       description: 'Desktop app for Lost Ark players. Give them possibility to check their characters status. Have some useful calcs and tools.'
     },
   ],
+  api: [
+    {
+      name: 'Account Status Lost Ark - API',
+      stack: 'Express, Swagger, Docker, MongoDB, cors',
+      github: 'https://github.com/AmoneMisa/serverApi_AccountStatusLA',
+      description: 'API for Lost Ark Status LA desktop application for online module'
+    },
+  ],
   unfinished: [
     {
       name: 'Monopoly',
