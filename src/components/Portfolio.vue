@@ -99,6 +99,9 @@ const projects = {
     <SectionTitle title="Desktop on electron"/>
     <ProjectGrid :projects="projects.electron"/>
 
+    <SectionTitle title="API on express"/>
+    <ProjectGrid :projects="projects.api"/>
+
     <SectionTitle title="Unfinished"/>
     <ProjectGrid :projects="projects.unfinished"/>
 
