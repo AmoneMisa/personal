@@ -33,6 +33,12 @@ const projects = {
       github: 'https://github.com/AmoneMisa/accountStatusLA',
       description: 'Desktop app for Lost Ark players. Give them possibility to check their characters status. Have some useful calcs and tools.'
     },
+    {
+      name: 'i18n Properties Manager',
+      stack: 'Electron, Vue, SCSS, Vite',
+      github: 'https://github.com/AmoneMisa/i18nPropertiesManager',
+      description: 'Desktop app for manage i18n properties and ftlh files.'
+    }
   ],
   api: [
     {
